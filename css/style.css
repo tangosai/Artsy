@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #111;
+}
+ul,ol{
+	padding: 0px;
+	margin: 0px;
+}
+ul li,ol li{
+	list-style: none;
+}
+body {
+	width: 100%;
+	height: auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+/* top-header */
+
+.top-header{
+	width: 100%;
+	height: auto;
+	background: #0B2C3C;
+	display: flow-root;
+	padding: 5px 20px;
+}
+.contact-details {
+	float: left;
+}
+.contact-details ul li{
+	color: #fff;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.contact-details ul li .fa{
+	margin-right: 5px;
+}
+.social-media{
+	float: right;
+}
+.social-media ul li{
+	display: inline-block;
+}
+.social-media ul li a{
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	display: block;
+	text-align: center;
+}
+.social-media ul li .facebook:hover{background: #1877F2}
+.social-media ul li .youtube:hover{background: #CD201F}
+
+
+
